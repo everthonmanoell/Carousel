@@ -1,0 +1,27 @@
+.menutop{
+    background-color:aliceblue
+}
+.card {
+    width: 12%; /* Define a largura desejada para cada card */
+    margin-right: 2%; /* Adicione um espaçamento entre os cards */
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center; /* Centralize o conteúdo */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-img-top {
+    margin-top: 2%;
+    width: 80px;
+    height: 80px;
+    align-self: center;
+    margin-top: %;
+  }
+  
+  .card-text {
+    padding: 10px; /* Adicione espaço interno para a descrição */
+    text-align: center;
+  }
+  
