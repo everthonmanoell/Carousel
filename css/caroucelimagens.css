@@ -1,0 +1,19 @@
+.my-custom-carousel {
+    max-width: 8%; /* Defina a largura máxima desejada para o carousel */
+    margin: 0 auto; /* Centralize o carousel na página horizontalmente */
+  }
+  
+  .carousel-inner {
+    text-align: center; /* Centralize o conteúdo do carousel horizontalmente */
+  }
+  
+  .carousel-item p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5); /* Adicione um fundo semi-transparente para a descrição */
+    color: white; /* Cor do texto da descrição */
+    padding: 10px; /* Espaçamento interno para a descrição */
+  }
+  
