@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="/css/caroucelimagens.css">
   <link rel="stylesheet" href="/css/menutop.css">
   <link rel="stylesheet" href="/css/body.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <title>Caroucel</title>
 </head>
 
@@ -48,99 +49,126 @@
 
 
   <section class="menutop">
+
     <div class="container">
+
       <div class="row">
+
         <div class="card">
-          <img class="card-img-top" src="/images/promocoes.png" alt="Imagem de capa do card">
-          <div class="card-body">
-            <p class="card-text">Ex</p>
-          </div>
+          <a href="https://www.google.com.br/">
+            <img class="card-img-top" src="/images/promocoes.png" alt="Imagem de capa do card">
+            <div class="card-body">
+              <p class="card-text">Ex</p>
+            </div>
+          </a>
         </div>
-  
+
         <div class="card">
-          <img class="card-img-top" src="/images/bike.jpg" alt="Imagem de capa do card">
-          <div class="card-body">
-            <p class="card-text">Ex</p>
-          </div>
+          <a href="#">
+            <img class="card-img-top" src="/images/bike.jpg" alt="Imagem de capa do card">
+            <div class="card-body">
+              <p class="card-text">Ex</p>
+            </div>
+          </a>
         </div>
-  
+
         <div class="card">
-          <img class="card-img-top" src="/images/LEGO_logo.svg.png" alt="Imagem de capa do card">
-          <div class="card-body">
-            <p class="card-text">Ex</p>
-          </div>
+          <a href="">
+            <img class="card-img-top" src="/images/LEGO_logo.svg.png" alt="Imagem de capa do card">
+            <div class="card-body">
+              <p class="card-text">Ex</p>
+            </div>
+          </a>
         </div>
-  
+
         <div class="card">
-          <img class="card-img-top" src="/images/hotwheels.jpeg" alt="Imagem de capa do card">
-          <div class="card-body">
-            <p class="card-text">Ex</p>
-          </div>
+          <a href="">
+            <img class="card-img-top" src="/images/hotwheels.jpeg" alt="Imagem de capa do card">
+            <div class="card-body">
+              <p class="card-text">Ex</p>
+            </div>
+          </a>
         </div>
-  
+
         <div class="card">
+          <a href="">
           <img class="card-img-top" src="/images/disney.jpeg" alt="Imagem de capa do card">
           <div class="card-body">
             <p class="card-text">Ex</p>
           </div>
+          </a>
         </div>
-  
+
         <div class="card">
-          <img class="card-img-top" src="/images/mario.jpeg" alt="Imagem de capa do card">
-          <div class="card-body">
-            <p class="card-text">Ex</p>
-          </div>
+          <a href="">
+            <img class="card-img-top" src="/images/mario.jpeg" alt="Imagem de capa do card">
+            <div class="card-body">
+              <p class="card-text">Ex</p>
+            </div>
+          </a>
         </div>
-  
+
         <div class="card">
-          <img class="card-img-top" src="/images/barbie.jpeg" alt="Imagem de capa do card">
-          <div class="card-body">
-            <p class="card-text">Ex</p>
-          </div>
+          <a href="">
+            <img class="card-img-top" src="/images/barbie.jpeg" alt="Imagem de capa do card">
+            <div class="card-body">
+              <p class="card-text">Ex</p>
+            </div>
+          </a>
         </div>
+
       </div>
+
     </div>
+
   </section>
 
-  <!-- <main>
+  <main>
 
-        <div id="carouselExampleInterval" class="carousel slide my-custom-carousel" data-bs-ride="carousel">
-
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
-                <img src="/images/LEGO_logo.svg.png" class="d-block w-100 imgc" alt="...">
-                
-              <div class="carousel-item" data-bs-interval="2000">
-                <img src="/images/bike.jpg" class="d-block w-100 imgc" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100 imgc" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+    <main>
+      
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="images/disney.jpeg" alt="Primeiro Slide">
           </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/barbie.jpeg" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/bike.jpg" alt="Terceiro Slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
 
-    </main> -->
+    </main>
+  
 
 
-  <!-- <footer> 
+    <footer> 
         <ul>
             <li>Sobre nós</li>
             <li>Ouvidoria</li>
         </ul>
-    </footer> -->
+    </footer> 
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
