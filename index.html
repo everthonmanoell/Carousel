@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-bs-theme="auto">
+<html lang="pt-br" data-bs-theme="auto">
   <head><script src="/bootstrap/bootstrap-5.3.2-examples/assets/js/color-modes.js"></script>
 
     <meta charset="utf-8">
@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
 
 <link href="/bootstrap/bootstrap-5.3.2-examples/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/logo.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
 
     <style>
       .bd-placeholder-img {
@@ -156,7 +158,13 @@
 <header data-bs-theme="dark">
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Carousel</a>
+      <nav class="navbar bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="/icons/caroulsel.png" alt="Bootstrap" width="30" height="24">
+          </a>
+        </div>
+      </nav>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -166,15 +174,15 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Categorias</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            <a class="nav-link" href="#">Contato</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Pesquisar</button>
         </form>
       </div>
     </div>
@@ -191,32 +199,37 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <image class="cimage img-fluid" href="/images/disneyy.jpeg" width="100%" height="100%" />
+        </svg>
         <div class="container">
           <div class="carousel-caption text-start">
-            <h1>Example headline.</h1>
-            <p class="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+            <h1>Disney</h1>
+            <p class="opacity-75">Um mundo de fantasia e diversão</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Visitar</a></p>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <image class="cimage  img-fluid" href="/images/barbie.jpg" width="100%" height="100%" />
+        </svg>
         <div class="container">
           <div class="carousel-caption">
             <h1>Another example headline.</h1>
             <p>Some representative placeholder content for the second slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+            <p><a class="btn btn-lg btn-primary" href="#">Visitar</a></p>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-        <div class="container">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <image class="cimage img-fluid" href="/images/mplay.jpg" width="100%" height="100%" />
+        </svg>
           <div class="carousel-caption text-end">
             <h1>One more for good measure.</h1>
             <p>Some representative placeholder content for the third slide of this carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+            <p><a class="btn btn-lg btn-primary" href="#">Visitar</a></p>
           </div>
         </div>
       </div>
@@ -241,7 +254,11 @@
     <!-- Three columns of text below the carousel -->
     <div class="row">
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/>
+
+          <image class="cimage img-fluid img-thumbnail" href="/images/LEGO_logo.svg.png" width="100%" height="100%" />
+
+        </svg>
         <h2 class="fw-normal">Heading</h2>
         <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
         <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
