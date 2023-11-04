@@ -1,0 +1,14 @@
+/* Estilo para os links de navegação ativos */
+.navbar-nav .nav-item.active .nav-link {
+    background-color: #007bff; /* Cor de fundo azul */
+    color: #fff; /* Texto branco */
+    border-radius: 10px; /* Borda arredondada */
+}
+
+/* Estilo para os links de navegação quando estão sendo clicados */
+.navbar-nav .nav-item .nav-link:hover {
+    outline: none; /* Remove a borda de foco padrão */
+    background-color: #aa563c;
+    color: #fff;
+    border-radius: 10px;
+}
