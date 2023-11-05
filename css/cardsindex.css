@@ -1,0 +1,31 @@
+main .container .row .btn{
+    background-color: #007bff;
+    color: #fff;
+
+}
+
+main .container .row .btn:hover{
+    outline: none; /* Remove a borda de foco padrão */
+    background-color: #aa563c;
+    color: #fff;
+
+}
+
+
+
+section .navbar{
+    height: 90px;
+
+}
+
+section .navbar .container-md p{
+    margin-top: 3%;
+}
+main{
+    margin-top: 1%;
+}
+
+main .container .featurette .btn a{
+    text-decoration: none;
+    color: #fff;
+}
