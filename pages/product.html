@@ -198,7 +198,7 @@
     </div>
 
 
-    <header data-bs-theme="dark">
+    <header data-bs-theme="dark" >
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <div class="container-fluid">
                 <nav class="navbar bg-dark">
@@ -224,8 +224,8 @@
                             <a class="nav-link" href="/pages/contato.html">Contato</a>
                         </li>
                     </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                    <form class="d-flex" role="search" id="searchForm">
+                        <input class="form-control me-2" type="search" placeholder="seção 1, 2 ou 3" aria-label="Search" id="searchInput">
                         <button class="btn btn-outline-success" type="submit">Pesquisar</button>
                     </form>
                 </div>
@@ -244,7 +244,7 @@
 
 
     <main>
-        <div class="container">
+        <div class="container" id="section1">
             <div class="row row-cols-1 row-cols-md-4 g-3">
                 <div class="col">
                     <div class="card">
@@ -292,7 +292,7 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col" >
                     <div class="card">
                         <img src="/images/cogumelo.webp" class="card-img-top cardimg img-fluid" alt="...">
                         <div class="card-body">
@@ -319,7 +319,7 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col" id="section2">
                     <div class="card">
                         <img src="/images/uno.webp" class="card-img-top cardimg img-fluid" alt="...">
                         <div class="card-body">
@@ -332,7 +332,7 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col" >
                     <div class="card">
                         <img src="/images/torrelannoy.jpg" class="card-img-top cardimg img-fluid" alt="...">
                         <div class="card-body">
@@ -400,7 +400,7 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col" id="section3">
                     <div class="card">
                         <img src="/images/milesmorales.jpg" class="card-img-top cardimg img-fluid" alt="...">
                         <div class="card-body">
@@ -503,19 +503,11 @@
     <script src="../bootstrap/bootstrap-5.3.2-examples/assets/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
-    <script>
-        // Adiciona um evento de clique a todos os botões com a classe "comprarBtn"
-        var buttons = document.querySelectorAll(".comprarBtn");
-        buttons.forEach(function(button) {
-            button.addEventListener("click", function() {
-                $('#compraSucessoModal').modal('show'); // Exibe o modal
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="../js/buscarporsecao.js"></script>
+    <script src="../js/comprabemsucedida.js"></script>
 
-                setTimeout(function() {
-                $('#compraSucessoModal').modal('hide');
-            }, 1500);
-            });
-        });
-    </script>
+
 </body>
 
 </html>
